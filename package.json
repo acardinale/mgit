@@ -1,0 +1,39 @@
+{
+  "name": "mgitrepo",
+  "version": "0.0.1",
+  "description": "Multiple git repository management",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "lint": "standard | snazzy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cli-table3": "^0.6.3",
+    "listr": "^0.14.3",
+    "simple-git": "^3.17.0"
+  },
+  "devDependencies": {
+    "snazzy": "^9.0.0",
+    "standard": "^17.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acardinale/mgitrepo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/acardinale/mgitrepo/issues"
+  },
+  "homepage": "https://github.com/acardinale/mgitrepo#mgit",
+  "author": "Andrea Cardinale <https://github.com/acardinale>",
+  "license": "MIT",
+  "keywords": [
+    "git",
+    "multigit",
+    "multi",
+    "multiple",
+    "repo",
+    "micro",
+    "service"
+  ]
+}
